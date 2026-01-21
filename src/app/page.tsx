@@ -14,7 +14,7 @@ interface Track {
   uri: string;
 }
 
-const API_BASE_URL = "https://024ee0f6b887.ngrok-free.app";
+const API_BASE_URL = "https://d2rg1w4utsakkb.cloudfront.net";
 
 export default function Home() {
   const [mode, setMode] = useState<"select" | "camera">("select");
