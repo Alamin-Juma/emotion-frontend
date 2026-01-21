@@ -14,7 +14,7 @@ interface Track {
   uri: string;
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const API_BASE_URL = "https://024ee0f6b887.ngrok-free.app";
 
 export default function Home() {
   const [mode, setMode] = useState<"select" | "camera">("select");

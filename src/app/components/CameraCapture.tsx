@@ -7,7 +7,7 @@ interface CameraCaptureProps {
   disabled?: boolean;
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const API_BASE_URL = "https://024ee0f6b887.ngrok-free.app";
 
 export default function CameraCapture({ onEmotionDetected, disabled }: CameraCaptureProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
